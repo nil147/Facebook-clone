@@ -11,8 +11,8 @@ function Post({ profilePic, image, username, time, message }) {
     return (
         <div className="post">
             <div className="post-top">
-                <Avatar src={profilePic} 
-                className="post-avatar" />
+                <Avatar src={profilePic}
+                    className="post-avatar" />
                 <div className="post-topInfo">
                     <h3>{username}</h3>
                     <p>{time}</p>

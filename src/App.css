@@ -1,7 +1,17 @@
 .app {
   background-color: #f1f2f5;
+
+display: grid;
+place-items: center;
+
+}
+
+.myApp {
+    
 }
 
 .app-body {
   display: flex;
+
+    
 }

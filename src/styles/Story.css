@@ -16,9 +16,13 @@
     transform: scale(1.07);
 }
 
+.story > .MuiAvatar-root {
+    margin: 5px;
+}
+
 .story > h4 {
     position: absolute;
-    bottom: 20px;
+    bottom: 0px;
     left: 20px;
     color: white;
 }

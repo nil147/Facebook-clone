@@ -1,9 +1,11 @@
 .post {
     width: 100%;
     margin-top: 15px;
+    
     border-radius: 15px;
     background-color: white;
     box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  
 }
 
 .post-top {
@@ -27,9 +29,10 @@
 }
 
 .post-bottom {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 15px 25px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    
+    padding: 2px 25px;
 }
 
 .post-image > img {
@@ -45,6 +48,8 @@
     color: gray;
     cursor: pointer;
     padding: 15px;
+  
+    
 }
 
 .post-option {
@@ -53,6 +58,7 @@
     justify-content: center;
     padding: 5px;
     flex: 1;
+    
 }
 
 .post-option > p {

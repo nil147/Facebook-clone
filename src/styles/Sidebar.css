@@ -1,4 +1,7 @@
 .sidebar {
     padding: 25px 10px;
+    position: fixed;
+
+    top: 0px;
     flex: 0.33;
 }

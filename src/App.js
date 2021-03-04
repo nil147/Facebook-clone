@@ -10,17 +10,19 @@ function App() {
   const [{ user }, dispatch] = useStateValue();
   return (
     <div className="app">
+
       {!user ? <Login /> : (
-        <>
-         <Header />
-         <div className="app-body">
-           <Sidebar />
-           <Feed />
-           <Widgets />
-         </div>
-         </>
+        <div className="myApp">
+          <Header />
+          <div className="app-body">
+
+            <Sidebar />
+            <Feed />
+            <Widgets />
+          </div>
+        </div>
       )}
-     
+
     </div>
   );
 }
